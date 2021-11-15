@@ -64,7 +64,7 @@ The preprocessing precedure will store the processed data as seperate json files
 ## 3. How to Run
 
 ### Preprocessed Data
-You can download the preprocessed data for our experiments on [CNNDM](https://drive.google.com/file/d/1WRvDBWfmC5W_32wNRrNa6lEP75Vx5cut/view?usp=sharing) and [XSum](https://drive.google.com/file/d/1nKx6RT4zNxO4hFy8y3dPbYV-GBu1Si-u/view?usp=sharing).
+You can download the preprocessed data for our experiments on [CNNDM](https://drive.google.com/file/d/19TLcmoKnssPLQT4LJS_B7nm8KBT9WuyZ/view?usp=sharing) and [XSum](TODO).
 
 After donwloading, you should unzip the zip files in this root directory.
 
@@ -110,6 +110,6 @@ model path should be a subdirectory in the `./cache` directory, e.g. `cnndm/mode
 
 Our model outputs on these datasets can be found in `./output`.
 
-We have also provided the finetuned checkpoints on [CNNDM](https://drive.google.com/drive/folders/1mdfYcHF9OfVb0eAggzaIfNk-63hnCeqh?usp=sharing) and [XSum](https://drive.google.com/drive/folders/1EnHRuzH0rVIKLrseN8xqgvIgpakgrCxJ?usp=sharing).
+We have also provided the finetuned checkpoints on [CNNDM](https://drive.google.com/drive/folders/1mdfYcHF9OfVb0eAggzaIfNk-63hnCeqh?usp=sharing), [XSum](https://drive.google.com/drive/folders/1EnHRuzH0rVIKLrseN8xqgvIgpakgrCxJ?usp=sharing) and [NYT](https://drive.google.com/drive/folders/1WriaJ2ozVlof0zNHjeqsDxcfpavL4ApB?usp=sharing).
 
 You could load these checkpoints using the standard Transformers' interface (model.from_pretrained()).
