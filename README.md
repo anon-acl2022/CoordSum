@@ -92,14 +92,20 @@ model path should be a subdirectory in the `./cache` directory, e.g. `cnndm/mode
 ### CNNDM
 |          | ROUGE-1 | ROUGE-2 | ROUGE-L |
 |----------|---------|---------|---------|
-| BART     | 44.39   | 21.21   | 41.28   |
-| Ours     | 46.67   | 22.15   | 43.54   |
+| BART     | 44.16   | 21.28   | 40.90   |
+| Ours     | 47.78   | 23.55   | 44.57   |
 
 ### XSum
 |          | ROUGE-1 | ROUGE-2 | ROUGE-L |
 |----------|---------|---------|---------|
-| Pegasus  | 47.10   | 24.53   | 39.23   |
-| Ours     | 47.61   | 24.57   | 39.44   |
+| Pegasus  | 47.21   | 24.56   | 39.25   |
+| Ours     | 49.07   | 25.59   | 40.40   |
+
+### NYT
+|          | ROUGE-1 | ROUGE-2 | ROUGE-L |
+|----------|---------|---------|---------|
+| BART     | 55.78   | 36.61   | 52.60   |
+| Ours     | 57.75   | 38.64   | 54.54   |
 
 Our model outputs on these datasets can be found in `./output`.
 
