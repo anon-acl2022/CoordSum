@@ -109,6 +109,6 @@ model path should be a subdirectory in the `./cache` directory, e.g. `cnndm/mode
 
 Our model outputs on these datasets can be found in `./output`.
 
-We have also provided the finetuned checkpoints on [CNNDM](https://drive.google.com/drive/folders/1mdfYcHF9OfVb0eAggzaIfNk-63hnCeqh?usp=sharing) and [XSum](https://drive.google.com/file/d/1yx9KhDY0CY8bLdYnQ9XhvfMwxoJ4Fz6N/view?usp=sharing).
+We have also provided the finetuned checkpoints on [CNNDM](https://drive.google.com/drive/folders/1mdfYcHF9OfVb0eAggzaIfNk-63hnCeqh?usp=sharing) and [XSum](https://drive.google.com/drive/folders/1EnHRuzH0rVIKLrseN8xqgvIgpakgrCxJ?usp=sharing).
 
 You could load these checkpoints using the standard Transformers' interface (model.from_pretrained()).
