@@ -64,7 +64,7 @@ The preprocessing precedure will store the processed data as seperate json files
 ## 3. How to Run
 
 ### Preprocessed Data
-You can download the preprocessed data for our experiments on [CNNDM](https://drive.google.com/file/d/19TLcmoKnssPLQT4LJS_B7nm8KBT9WuyZ/view?usp=sharing) and [XSum](TODO).
+You can download the preprocessed data for our experiments on [CNNDM](https://drive.google.com/file/d/19TLcmoKnssPLQT4LJS_B7nm8KBT9WuyZ/view?usp=sharing).
 
 After donwloading, you should unzip the zip files in this root directory.
 
