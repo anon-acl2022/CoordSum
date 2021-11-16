@@ -19,7 +19,7 @@ Instread of using MLE training alone, we introduce a contrastive learning compon
 - `conda create --name env --file spec-file.txt`
 - `pip3 install -r requirements.txt`
 - `compare_mt` -> https://github.com/neulab/compare-mt
-- 
+
 Our code is based on Huggingface's [Transformers](https://github.com/huggingface/transformers) library. 
 
 ### Description of Codes
